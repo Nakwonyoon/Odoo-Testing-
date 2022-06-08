@@ -1,0 +1,18 @@
+2022-06-08 09:49:29.820 CDT [5980] LOG:  database system was shut down at 2022-06-08 09:49:23 CDT
+2022-06-08 09:49:29.847 CDT [9896] LOG:  database system is ready to accept connections
+2022-06-08 09:53:05.807 CDT [14056] ERROR:  duplicate key value violates unique constraint "res_users_login_key"
+2022-06-08 09:53:05.807 CDT [14056] DETAIL:  Key (login)=(markyoon@texpert.net) already exists.
+2022-06-08 09:53:05.807 CDT [14056] STATEMENT:  INSERT INTO "res_users" ("id", "action_id", "active", "company_id", "create_date", "create_uid", "login", "partner_id", "signature", "write_date", "write_uid") VALUES (nextval('res_users_id_seq'), NULL, true, 1, '2022-06-08 14:53:05.783503', 2, 'markyoon@texpert.net', 7, '<p style="margin:0px 0 12px 0;box-sizing:border-box;"><br></p>', '2022-06-08 14:53:05.783503', 2) RETURNING id
+2022-06-08 10:11:19.536 CDT [9896] LOG:  received fast shutdown request
+2022-06-08 10:11:19.538 CDT [9896] LOG:  aborting any active transactions
+2022-06-08 10:11:19.539 CDT [14056] FATAL:  terminating connection due to administrator command
+2022-06-08 10:11:19.539 CDT [14308] FATAL:  terminating connection due to administrator command
+2022-06-08 10:11:19.540 CDT [5480] FATAL:  terminating connection due to administrator command
+2022-06-08 10:11:19.551 CDT [13732] ERROR:  canceling statement due to user request
+2022-06-08 10:11:19.554 CDT [9896] LOG:  background worker "logical replication launcher" (PID 13732) exited with exit code 1
+2022-06-08 10:11:19.555 CDT [14148] FATAL:  terminating connection due to administrator command
+2022-06-08 10:11:19.555 CDT [6500] FATAL:  terminating connection due to administrator command
+2022-06-08 10:11:19.556 CDT [2356] FATAL:  terminating connection due to administrator command
+2022-06-08 10:11:19.556 CDT [3020] FATAL:  terminating connection due to administrator command
+2022-06-08 10:11:19.580 CDT [2908] LOG:  shutting down
+2022-06-08 10:11:19.621 CDT [9896] LOG:  database system is shut down

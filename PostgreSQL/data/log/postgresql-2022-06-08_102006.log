@@ -1,0 +1,8 @@
+2022-06-08 10:20:06.484 CDT [7060] LOG:  database system was shut down at 2022-06-08 10:19:40 CDT
+2022-06-08 10:20:06.498 CDT [6608] LOG:  database system is ready to accept connections
+2022-06-08 11:22:23.319 CDT [15304] FATAL:  password authentication failed for user "marktest"
+2022-06-08 11:22:23.319 CDT [15304] DETAIL:  Role "marktest" does not exist.
+	Connection matched pg_hba.conf line 86: "host    all             all             ::1/128                 md5"
+2022-06-08 11:22:28.480 CDT [3112] FATAL:  password authentication failed for user "marktest"
+2022-06-08 11:22:28.480 CDT [3112] DETAIL:  Role "marktest" does not exist.
+	Connection matched pg_hba.conf line 86: "host    all             all             ::1/128                 md5"
