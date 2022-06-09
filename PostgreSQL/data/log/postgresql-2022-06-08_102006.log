@@ -6,3 +6,16 @@
 2022-06-08 11:22:28.480 CDT [3112] FATAL:  password authentication failed for user "marktest"
 2022-06-08 11:22:28.480 CDT [3112] DETAIL:  Role "marktest" does not exist.
 	Connection matched pg_hba.conf line 86: "host    all             all             ::1/128                 md5"
+2022-06-08 19:05:51.786 CDT [6608] LOG:  received fast shutdown request
+2022-06-08 19:05:51.789 CDT [6608] LOG:  aborting any active transactions
+2022-06-08 19:05:51.801 CDT [3848] ERROR:  canceling statement due to user request
+2022-06-08 19:05:51.804 CDT [6608] LOG:  background worker "logical replication launcher" (PID 3848) exited with exit code 1
+2022-06-08 19:05:51.804 CDT [4316] FATAL:  terminating connection due to administrator command
+2022-06-08 19:05:51.806 CDT [19880] FATAL:  terminating connection due to administrator command
+2022-06-08 19:05:51.807 CDT [5308] FATAL:  terminating connection due to administrator command
+2022-06-08 19:05:51.807 CDT [19504] FATAL:  terminating connection due to administrator command
+2022-06-08 19:05:51.808 CDT [4276] FATAL:  terminating connection due to administrator command
+2022-06-08 19:05:51.808 CDT [5020] FATAL:  terminating connection due to administrator command
+2022-06-08 19:05:51.830 CDT [7108] LOG:  shutting down
+2022-06-08 19:05:51.892 CDT [17712] FATAL:  the database system is shutting down
+2022-06-08 19:05:51.903 CDT [6608] LOG:  database system is shut down

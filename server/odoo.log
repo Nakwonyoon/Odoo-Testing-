@@ -3392,3 +3392,183 @@ psycopg2.InterfaceError: connection already closed
 2022-06-08 22:47:06,494 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
 2022-06-08 22:47:06,510 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
 2022-06-08 22:47:38,284 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 22:47:38] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.017 50.023
+2022-06-08 22:48:28,604 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 22:48:28] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.001 50.006
+2022-06-08 22:49:18,618 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 22:49:18] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.001 50.014
+2022-06-08 22:50:08,941 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 22:50:08] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.009
+2022-06-08 22:50:58,958 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 22:50:58] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.001 50.013
+2022-06-08 22:51:49,273 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 22:51:49] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.003
+2022-06-08 22:52:39,281 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 22:52:39] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.005
+2022-06-08 22:53:29,610 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 22:53:29] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.002 50.018
+2022-06-08 22:54:19,653 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 22:54:19] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.027
+2022-06-08 22:55:09,986 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 22:55:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.005 50.013
+2022-06-08 22:55:59,995 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 22:55:59] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.003
+2022-06-08 22:56:50,319 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 22:56:50] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.001 50.010
+2022-06-08 22:57:06,594 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2022-06-08 22:57:06,603 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2022-06-08 22:57:06,609 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2022-06-08 22:57:06,614 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2022-06-08 22:57:06,620 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2022-06-08 22:57:06,624 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2022-06-08 22:57:06,630 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2022-06-08 22:57:06,633 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2022-06-08 22:57:06,639 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-08 22:57:06,645 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-08 22:57:40,331 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 22:57:40] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.002 50.007
+2022-06-08 22:58:30,665 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 22:58:30] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.011
+2022-06-08 22:59:20,679 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 22:59:20] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.002 50.010
+2022-06-08 23:00:11,013 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:00:11] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.020
+2022-06-08 23:01:01,016 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:01:01] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.003
+2022-06-08 23:01:51,349 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:01:51] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.001 50.019
+2022-06-08 23:02:41,377 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:02:41] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.023
+2022-06-08 23:03:31,715 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:03:31] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.015
+2022-06-08 23:04:21,718 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:04:21] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.001 50.002
+2022-06-08 23:05:12,048 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:05:12] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.011
+2022-06-08 23:06:02,065 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:06:02] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.001 50.016
+2022-06-08 23:06:52,402 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:06:52] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.019
+2022-06-08 23:07:06,748 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-08 23:07:06,748 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-08 23:07:42,420 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:07:42] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.015 50.003
+2022-06-08 23:08:32,785 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:08:32] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.022 50.012
+2022-06-08 23:09:22,805 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:09:22] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.021
+2022-06-08 23:10:13,134 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:10:13] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.014
+2022-06-08 23:11:03,139 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:11:03] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.005
+2022-06-08 23:11:53,487 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:11:53] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.023
+2022-06-08 23:12:43,510 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:12:43] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.007
+2022-06-08 23:13:33,849 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:13:33] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.014
+2022-06-08 23:14:23,874 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:14:23] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.010
+2022-06-08 23:15:14,220 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:15:14] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.001
+2022-06-08 23:16:04,223 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:16:04] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.003
+2022-06-08 23:16:54,540 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:16:54] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.005
+2022-06-08 23:17:06,832 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-08 23:17:06,832 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-08 23:17:44,543 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:17:44] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.003
+2022-06-08 23:18:34,874 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:18:34] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.017
+2022-06-08 23:19:24,907 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:19:24] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.018
+2022-06-08 23:20:15,239 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:20:15] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.015 50.003
+2022-06-08 23:21:05,257 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:21:05] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.018
+2022-06-08 23:21:55,603 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:21:55] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.018
+2022-06-08 23:22:45,624 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:22:45] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.020
+2022-06-08 23:23:35,951 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:23:35] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.000
+2022-06-08 23:24:25,969 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:24:25] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.003
+2022-06-08 23:25:16,287 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:25:16] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.003
+2022-06-08 23:26:06,319 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:26:06] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.016
+2022-06-08 23:26:56,666 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:26:56] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.004
+2022-06-08 23:27:06,906 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-08 23:27:06,906 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-08 23:27:46,698 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:27:46] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.002 50.017
+2022-06-08 23:28:37,045 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:28:37] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 49.999
+2022-06-08 23:29:27,079 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:29:27] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.001 50.018
+2022-06-08 23:30:17,412 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:30:17] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.001 50.020
+2022-06-08 23:31:07,428 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:31:07] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.000
+2022-06-08 23:31:57,759 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:31:57] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.011
+2022-06-08 23:32:47,791 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:32:47] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.032
+2022-06-08 23:33:38,139 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:33:38] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.023
+2022-06-08 23:34:28,159 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:34:28] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.004
+2022-06-08 23:35:18,522 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:35:18] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.019
+2022-06-08 23:36:08,538 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:36:08] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.000
+2022-06-08 23:36:58,886 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:36:58] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.029
+2022-06-08 23:37:06,996 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-08 23:37:06,996 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-08 23:37:48,913 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:37:48] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.001 50.010
+2022-06-08 23:38:39,252 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:38:39] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.004
+2022-06-08 23:39:29,285 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:39:29] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.033
+2022-06-08 23:40:19,632 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:40:19] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.010
+2022-06-08 23:41:09,652 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:41:09] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.004
+2022-06-08 23:42:00,003 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:42:00] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.022
+2022-06-08 23:42:50,016 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:42:50] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.009 50.003
+2022-06-08 23:43:40,365 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:43:40] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.018
+2022-06-08 23:44:30,385 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:44:30] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.020
+2022-06-08 23:45:20,730 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:45:20] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.002
+2022-06-08 23:46:10,749 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:46:10] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.020
+2022-06-08 23:47:01,108 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:47:01] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.028
+2022-06-08 23:47:07,053 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-08 23:47:07,053 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-08 23:47:51,129 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:47:51] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.005
+2022-06-08 23:48:41,461 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:48:41] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.020
+2022-06-08 23:49:31,493 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:49:31] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.016
+2022-06-08 23:50:21,840 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:50:21] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.017
+2022-06-08 23:51:11,876 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:51:11] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.020
+2022-06-08 23:52:02,202 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:52:02] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.001 50.013
+2022-06-08 23:52:52,220 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:52:52] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.003 50.011
+2022-06-08 23:53:42,541 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:53:42] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.003
+2022-06-08 23:54:32,575 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:54:32] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.016 50.018
+2022-06-08 23:55:22,924 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:55:22] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.034
+2022-06-08 23:56:12,942 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:56:12] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.018
+2022-06-08 23:57:03,275 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:57:03] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.014
+2022-06-08 23:57:07,152 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2022-06-08 23:57:07,161 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2022-06-08 23:57:07,168 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2022-06-08 23:57:07,172 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2022-06-08 23:57:07,178 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2022-06-08 23:57:07,182 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2022-06-08 23:57:07,188 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2022-06-08 23:57:07,192 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2022-06-08 23:57:07,197 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2022-06-08 23:57:07,202 15980 INFO odoo15_M odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2022-06-08 23:57:53,293 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:57:53] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.006 50.007
+2022-06-08 23:58:43,626 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:58:43] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.002 50.017
+2022-06-08 23:59:33,648 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [08/Jun/2022 23:59:33] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.004 50.014
+2022-06-09 00:00:23,975 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [09/Jun/2022 00:00:23] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.020
+2022-06-09 00:01:14,008 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [09/Jun/2022 00:01:14] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.018
+2022-06-09 00:02:04,340 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [09/Jun/2022 00:02:04] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.019
+2022-06-09 00:02:54,374 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [09/Jun/2022 00:02:54] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.033
+2022-06-09 00:03:44,705 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [09/Jun/2022 00:03:44] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.002 50.015
+2022-06-09 00:04:34,732 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [09/Jun/2022 00:04:34] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.000 50.027
+2022-06-09 00:05:25,074 15980 INFO odoo15_M werkzeug: 127.0.0.1 - - [09/Jun/2022 00:05:25] "POST /longpolling/poll HTTP/1.1" 200 - 9 0.002 50.015
+2022-06-09 00:05:51,800 15980 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "C:\Users\markyoon\Desktop\Odoo\server\odoo\addons\bus\models\bus.py", line 177, in loop
+    conn.poll()
+psycopg2.OperationalError: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\markyoon\Desktop\Odoo\server\odoo\addons\bus\models\bus.py", line 200, in run
+    self.loop()
+  File "C:\Users\markyoon\Desktop\Odoo\server\odoo\addons\bus\models\bus.py", line 186, in loop
+    event.set()
+  File "C:\Users\markyoon\Desktop\Odoo\server\odoo\sql_db.py", line 159, in __exit__
+    self.close()
+  File "<decorator-gen-4>", line 2, in close
+  File "C:\Users\markyoon\Desktop\Odoo\server\odoo\sql_db.py", line 89, in check
+    return f(self, *args, **kwargs)
+  File "C:\Users\markyoon\Desktop\Odoo\server\odoo\sql_db.py", line 376, in close
+    return self._close(False)
+  File "C:\Users\markyoon\Desktop\Odoo\server\odoo\sql_db.py", line 402, in _close
+    self.rollback()
+  File "<decorator-gen-8>", line 2, in rollback
+  File "C:\Users\markyoon\Desktop\Odoo\server\odoo\sql_db.py", line 89, in check
+    return f(self, *args, **kwargs)
+  File "C:\Users\markyoon\Desktop\Odoo\server\odoo\sql_db.py", line 481, in rollback
+    result = self._cnx.rollback()
+psycopg2.InterfaceError: connection already closed
+2022-06-09 00:05:51,816 15980 INFO ? odoo.service.server: Initiating shutdown 
+2022-06-09 00:05:51,816 15980 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2022-06-09 00:05:51,878 15980 INFO odoo15_M odoo.sql_db: Connection to the database failed 
+2022-06-09 00:05:51,878 15980 WARNING odoo15_M odoo.addons.base.models.ir_cron: Exception in cron: 
+Traceback (most recent call last):
+  File "C:\Users\markyoon\Desktop\Odoo\server\odoo\addons\base\models\ir_cron.py", line 95, in _process_jobs
+    with db.cursor() as cron_cr:
+  File "C:\Users\markyoon\Desktop\Odoo\server\odoo\sql_db.py", line 706, in cursor
+    return Cursor(self.__pool, self.dbname, self.dsn, serialized=serialized)
+  File "C:\Users\markyoon\Desktop\Odoo\server\odoo\sql_db.py", line 256, in __init__
+    self._cnx = pool.borrow(dsn)
+  File "C:\Users\markyoon\Desktop\Odoo\server\odoo\sql_db.py", line 589, in _locked
+    return fun(self, *args, **kwargs)
+  File "C:\Users\markyoon\Desktop\Odoo\server\odoo\sql_db.py", line 657, in borrow
+    **connection_info)
+  File "C:\Users\markyoon\Desktop\Odoo\python\lib\site-packages\psycopg2\__init__.py", line 127, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: FATAL:  the database system is shutting down
+
+2022-06-09 00:05:51,972 15980 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 5 connections  
+2022-06-09 00:06:21,982 5900 INFO ? odoo: Odoo version 15.0-20220607 
+2022-06-09 00:06:21,982 5900 INFO ? odoo: Using configuration file at C:\Users\markyoon\Desktop\Odoo\server\odoo.conf 
+2022-06-09 00:06:21,982 5900 INFO ? odoo: addons paths: ['C:\\Users\\markyoon\\Desktop\\Odoo\\server\\odoo\\addons', 'c:\\users\\markyoon\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\users\\markyoon\\desktop\\odoo\\server\\odoo\\addons'] 
+2022-06-09 00:06:21,982 5900 INFO ? odoo: database: mark@localhost:5432 
+2022-06-09 00:06:22,154 5900 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Users\markyoon\Desktop\Odoo\thirdparty\wkhtmltopdf.exe 
+2022-06-09 00:06:22,310 5900 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-TLHN152.texpert.home:8069 
